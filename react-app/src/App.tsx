@@ -1,12 +1,16 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import Display from "./Display";
+import Landing from "./Landing";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">App</header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/display" element={<Display />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
