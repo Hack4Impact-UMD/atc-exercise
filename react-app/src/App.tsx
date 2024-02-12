@@ -8,8 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path = "/" element = {<Pokimon/>}/>
-        <Route path = "/" element = {<Home/>}/>                                                                                                                                                                                                                                                   "
+        <Route path = "/" element = {<Home/>}/>     
+        <Route path = "/Pokimon" element = {<Pokimon/>}/>                                                                                                                                                                                                                                              "
       </Routes>
     </BrowserRouter>
   );
