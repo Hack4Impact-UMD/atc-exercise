@@ -1,12 +1,17 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import Home from "./Home"
+import Pokimon from "./Pokimon"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">App</header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path = "/" element = {<Home/>}/>     
+        <Route path = "/Pokimon" element = {<Pokimon/>}/>                                                                                                                                                                                                                                              "
+      </Routes>
+    </BrowserRouter>
   );
 }
 
