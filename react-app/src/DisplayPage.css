@@ -1,0 +1,83 @@
+body {
+    background-image: url("assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .display-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blue-box {
+    width: 40%;
+    background-color:
+    #627FE9;
+    border: 2px solid #EBFF00;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto; /* Center the box horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blue-box h1,
+  .blue-box h2,
+  .blue-box p {
+    color: white;
+  }
+  
+  .name-hp-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .name {
+    color: white;
+  }
+  
+  .hp {
+    color: white;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ability {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ability p {
+    margin-left: 10px;
+  }
+  
+  .pokemon-image {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .moves {
+    text-align: left;
+    color: white;
+  }
+  
+  .back-button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
